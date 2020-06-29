@@ -2,15 +2,20 @@
 <body>
 <html lang="fr">
   <link rel="stylesheet" href="style/vitrine.css">
+
 <head>
   <meta charset="utf-8">
   <title>Summer Code Camp - Contact</title>
   <script src="script.js"></script>
+
+<?php
+  $navigation='contact';
+  include 'header.php';
+?> 
+
 </head>
 <header>
-<?php
-include 'header.php';
-?> 
+
 </header>
 <main>
     <div class="border-nav"><h2>Contact</h2></div>
@@ -37,10 +42,6 @@ include 'header.php';
 </div>
 
 </main>
-<br>
-<br>
-<br>
-<br>
 <footer>
 <?php
   include 'footer.php'

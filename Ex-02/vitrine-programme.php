@@ -9,7 +9,8 @@
 </head>
 <header>
 <?php
-include 'header.php';
+  $navigation='programme';
+  include 'header.php';
 ?> 
 </header>
 
